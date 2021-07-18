@@ -1,0 +1,4 @@
+(library (name examples)
+    (inline_tests)
+    (preprocess (pps ppx_expect))
+    (libraries ot base))
